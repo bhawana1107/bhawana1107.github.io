@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhawana - Web developer</title>
+    <!-- ------------------------------ css-link ------------------------------- -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- --------------------------- bootstrap-link ---------------------------- -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- ------------------------------ icon-link ------------------------------ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-------------------------------- font-link ------------------------------ -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------- navbar-section ---------------------------- -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top position-sticky d-lg-block"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="images/IMG_20240409_103314_684.webp"
+                    alt="photo"> -->
+          <!-- <span class="fw-bolder">BHAWANA</span> -->
+          <span class="fw-bolder gradient-text">BHAWANA</span>
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse pe-3 justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav pe-3" id="nav-list">
+            <li class="nav-item">
+              <a class="nav-link active text-uppercase" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#skills">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#projects">project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#contact">contact me</a>
+            </li>
+          </ul>
+        </div>
+        <a
+          href="pdf/My_cv.pdf"
+          target="_blank"
+          id="resume-button"
+          class="d-block text-decoration-none text-center text-uppercase"
+          >RESUME</a
+        >
+      </div>
+    </nav>
+
+    <!-- -------------------------- offcanvas-navbar --------------------------- -->
+    <nav
+      class="navbar bg-body-tertiary fixed-top d-lg-none d-flex position-sticky"
+      id="responsive-navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/IMG_20240409_103314_684.webp" alt="photo" />
+          <span> Bhawana</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg"
+                alt="photo"
+              />
+              <span> Bhawana</span>
+            </a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              id="responsive-close-btn"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3"
+              id="responsive-nav"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact me</a>
+              </li>
+            </ul>
+            <section>
+              <a
+                href="pdf/My_cv.pdf"
+                target="_blank"
+                id="resume-button"
+                class="d-block text-decoration-none text-center text-uppercase"
+                >RESUME</a
+              >
+            </section>
+            <!-- ---------------------------- find-me-icons ---------------------------- -->
+            <section class="find-me-heading">
+              <p>find with me</p>
+            </section>
+            <ul class="find-me-icons">
+              <li>
+                <a href="#">
+                  <svg
+                    fill="#ff014f"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 14.906 32"
+                    stroke="#ff014f"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M14.874,11.167 L14.262,14.207 C14.062,15.208 13.100,15.992 12.072,15.992 L10.000,15.992 L10.000,30.000 C10.000,31.104 9.159,32.000 8.049,32.000 L5.030,32.000 C3.920,32.000 3.017,31.102 3.017,29.999 L3.017,15.992 L2.011,15.992 C0.901,15.992 -0.002,15.095 -0.002,13.991 L-0.002,10.990 C-0.002,9.887 0.901,8.989 2.011,8.989 L3.017,8.989 L3.017,6.003 C3.017,2.716 5.693,0.041 8.994,0.013 C9.015,0.012 9.033,0.001 9.055,0.001 L13.081,0.001 C13.636,0.001 14.000,0.448 14.000,1.000 L14.000,6.000 C14.000,6.553 13.636,7.004 13.081,7.004 L10.061,7.004 L10.060,8.989 L13.079,8.989 C13.645,8.989 14.167,9.228 14.509,9.644 C14.852,10.059 14.985,10.615 14.874,11.167 ZM9.092,10.990 C9.078,10.991 9.067,10.998 9.053,10.998 L9.053,10.998 C8.497,10.997 8.046,10.549 8.047,9.997 L8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 L8.049,6.003 C8.049,5.450 8.499,5.003 9.055,5.003 L12.074,5.003 L12.074,2.002 L9.094,2.002 C9.077,2.002 9.063,2.011 9.045,2.011 C6.831,2.011 5.030,3.802 5.030,6.003 L5.030,10.005 C5.030,10.558 4.579,11.006 4.023,11.006 C3.996,11.006 3.973,10.992 3.946,10.990 L2.011,10.990 L2.011,13.991 L4.023,13.991 C4.579,13.991 5.030,14.439 5.030,14.992 C5.030,15.044 5.008,15.088 5.000,15.138 L5.000,30.000 L8.049,29.999 L8.049,15.002 C8.049,14.998 8.047,14.995 8.047,14.992 C8.047,14.439 8.497,13.991 9.053,13.991 L12.072,13.991 C12.145,13.991 12.275,13.886 12.288,13.816 L12.857,10.990 L9.092,10.990 Z"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                  <svg
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#ff014f"
+                      />
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#ff014f"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#ff014f"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 22V15C18 13.8954 17.1046 13 16 13C14.8954 13 14 13.8954 14 15V22H10"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 22V15C10 11.6863 12.6863 9 16 9C19.3137 9 22 11.6863 22 15V22H18"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <rect
+                      x="3"
+                      y="9"
+                      width="4"
+                      height="13"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="5"
+                      cy="4"
+                      r="2"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                               hero-section                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="hero container-fluid px-2 mb-5" id="hero">
+      <div class="hero-container container pb-5">
+        <div class="row">
+          <div
+            class="bouncing hero-data col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-around"
+          >
+            <div class="bounce">
+              <p class="text-uppercase">welcome to my world</p>
+              <span class="greetings">
+                <button class="bounce-text">H</button>
+                <button class="bounce-text">I</button>
+                <button class="bounce-text">,</button>
+                <button class="bounce-text">I</button>
+                <button class="bounce-text">'</button>
+                <button class="bounce-text">m</button>
+              </span>
+              &nbsp;
+              <div class="name d-inline">
+                <button class="bounce-text">B</button>
+                <button class="bounce-text">h</button>
+                <button class="bounce-text">a</button>
+                <button class="bounce-text">w</button>
+                <button class="bounce-text">a</button>
+                <button class="bounce-text">n</button>
+                <button class="bounce-text">a</button>
+
+                <br />
+              </div>
+              <div class="static-text d-flex">
+                <button class="bounce-text d-flex">a</button>
+                <ul class="type-writter overflow-hidden p-0">
+                  <li>
+                    <span>Developer.</span>
+                  </li>
+                  <li>
+                    <span>Coder.</span>
+                  </li>
+                  <li>
+                    <span>Programmer.</span>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-description mt-3">
+                Hi I am Bhawana & I am a Web Developer Who writes Clean, Elegant
+                And efficient code.
+              </p>
+            </div>
+            <div class="find-with-me row justify-content-between">
+              <div class="col-lg-4 col-md-4 col-sm-12 mt-lg-0 mt-5">
+                <p class="ms-lg-2 ms-md-3 text-uppercase find-me-text">
+                  find with me
+                </p>
+                <ul class="find-me-icons d-flex justify-content-around gap-3">
+                  <li>
+                    <a href="#" class="text-center">
+                      <svg
+                        fill="#3c3e41"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid"
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 14.906 32"
+                        stroke="#3c3e41"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            d="M14.874,11.167 L14.262,14.207 C14.062,15.208 13.100,15.992 12.072,15.992 L10.000,15.992 L10.000,30.000 C10.000,31.104 9.159,32.000 8.049,32.000 L5.030,32.000 C3.920,32.000 3.017,31.102 3.017,29.999 L3.017,15.992 L2.011,15.992 C0.901,15.992 -0.002,15.095 -0.002,13.991 L-0.002,10.990 C-0.002,9.887 0.901,8.989 2.011,8.989 L3.017,8.989 L3.017,6.003 C3.017,2.716 5.693,0.041 8.994,0.013 C9.015,0.012 9.033,0.001 9.055,0.001 L13.081,0.001 C13.636,0.001 14.000,0.448 14.000,1.000 L14.000,6.000 C14.000,6.553 13.636,7.004 13.081,7.004 L10.061,7.004 L10.060,8.989 L13.079,8.989 C13.645,8.989 14.167,9.228 14.509,9.644 C14.852,10.059 14.985,10.615 14.874,11.167 ZM9.092,10.990 C9.078,10.991 9.067,10.998 9.053,10.998 L9.053,10.998 C8.497,10.997 8.046,10.549 8.047,9.997 L8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 L8.049,6.003 C8.049,5.450 8.499,5.003 9.055,5.003 L12.074,5.003 L12.074,2.002 L9.094,2.002 C9.077,2.002 9.063,2.011 9.045,2.011 C6.831,2.011 5.030,3.802 5.030,6.003 L5.030,10.005 C5.030,10.558 4.579,11.006 4.023,11.006 C3.996,11.006 3.973,10.992 3.946,10.990 L2.011,10.990 L2.011,13.991 L4.023,13.991 C4.579,13.991 5.030,14.439 5.030,14.992 C5.030,15.044 5.008,15.088 5.000,15.138 L5.000,30.000 L8.049,29.999 L8.049,15.002 C8.049,14.998 8.047,14.995 8.047,14.992 C8.047,14.439 8.497,13.991 9.053,13.991 L12.072,13.991 C12.145,13.991 12.275,13.886 12.288,13.816 L12.857,10.990 L9.092,10.990 Z"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-center">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                      <svg
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        fill="#3c3e41"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="#3c3e41"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                            fill=""
+                          />
+                          <path
+                            d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                            fill=""
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                            fill=""
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-center">
+                      <svg
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18 22V15C18 13.8954 17.1046 13 16 13C14.8954 13 14 13.8954 14 15V22H10"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10 22V15C10 11.6863 12.6863 9 16 9C19.3137 9 22 11.6863 22 15V22H18"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <rect
+                          x="3"
+                          y="9"
+                          width="4"
+                          height="13"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="5"
+                          cy="4"
+                          r="2"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 mt-lg-0 mt-5">
+                <p class="text-uppercase find-me-text">best skills on</p>
+                <ul class="best-skills d-flex">
+                  <li class="pe-lg-3">
+                    <img src="images/css photo.png" alt=" skills icon" />
+                  </li>
+                  <li class="pe-lg-3">
+                    <img src="images/bootstrap photo.png" alt=" skils icon" />
+                  </li>
+                  <li class="pe-lg-3">
+                    <img src="images/js photo2.png" alt=" skills icon" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image col-lg-6 col-md-12 col-sm-12">
+            <img src="images/1.jpg" alt="portfolio owner image" class="p-4" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------- scroll-top-button -------------------------- -->
+    <button
+      type="button"
+      onclick="topFunction()"
+      id="top-button"
+      class="text-center position-fixed"
+    >
+      <i class="fa-solid fa-paper-plane"></i>
+    </button>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                              about-section                              -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fuild mb-5" id="about">
+      <div class="about container py-5">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12">
+            <div class="about-image w-100 h-100">
+              <img
+                src="images/2.jpg"
+                alt="portfolio owner image"
+                class="p-4 w-100"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 about-text ps-lg-2 ps-md-5 ps-1">
+            <div class="container-fuild p-3">
+              <h2
+                class="text-uppercase about-heading text-lg-start text-center"
+              >
+                about me
+              </h2>
+              <p class="pt-4" id="para-1">
+                I’m Bhawana, a Developer passionate about learning and growing
+                in the tech world. I have experience working with various
+                front-end and back-end technologies.
+              </p>
+              <p id="para-2" class="d-lg-block show1">
+                I am a well-organized person, a problem solver, and an
+                independent professional with a keen eye for detail. I love
+                exploring new technologies, learning from people around the
+                world, and continuously improving my skills.
+              </p>
+              <p id="para-3" class="d-lg-block show1">
+                I am always eager to grab new knowledge and work on exciting
+                projects with like-minded, positive individuals.
+              </p>
+
+              <a type="button" id="read-more" class="d-lg-none"
+                >Read More
+                <i class="fa-solid fa-angles-down"></i>
+              </a>
+              <div class="pt-5 mb-3 visit text-uppercase">
+                lets make something special
+              </div>
+              <div class="section">
+                <a
+                  href="#contact"
+                  id="get-in-touch"
+                  class="d-inline-block text-decoration-none text-center text-uppercase"
+                  >get in touch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                            features-sectionṣ                            -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fuild mb-5" id="services">
+      <div class="service container py-5">
+        <h2 class="service-heading text-uppercase mb-5 text-center">
+          what i do
+        </h2>
+        <div class="row">
+          <div class="col-lg-6 col-12 mb-lg-0 mb-5">
+            <div class="service-box">
+              <section class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512.000000pt"
+                  height="512.000000pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
+                  >
+                    <path
+                      d="M4050 5098 c-27 -7 -147 -121 -540 -514 l-505 -504 -1167 0 -1167 0 -3 386 -3 386 -24 19 c-47 38 -191 18 -320 -44 -93 -45 -206 -159 -254 -254 -72 -146 -68 -30 -65 -1878 l3 -1660 24 -70 c47 -140 160 -272 285 -334 129 -63 74 -61 1371 -61 l1180 0 -222 -222 c-246 -246 -258 -264 -210 -312 l26 -26 1306 0 1306 0 24 25 25 24 0 1301 c0 814 -4 1308 -10 1319 -5 10 -22 24 -39 30 -42 18 -67 1 -191 -123 l-105 -106 -5 775 -5 774 -23 23 c-22 23 -26 23 -324 26 l-302 3 222 222 c143 144 227 235 237 259 21 52 19 133 -5 183 -12 25 -82 102 -173 192 -120 118 -161 153 -192 162 -48 13 -107 13 -155 -1z m252 -276 c175 -175 174 -169 53 -291 l-85 -86 -172 173 -173 172 86 85 c122 121 116 122 291 -53z m-3782 -1237 c0 -1132 0 -1145 20 -1165 38 -38 100 -22 119 31 8 22 11 252 11 750 l0 719 1087 0 1087 0 -217 -218 c-119 -120 -217 -225 -217 -235 0 -54 54 -97 101 -78 13 5 258 244 544 530 l520 521 172 -172 173 -173 -777 -777 -778 -778 -172 172 -173 173 160 160 c174 176 184 192 135 240 -49 50 -62 42 -273 -168 l-194 -194 -127 -359 -127 -359 -143 -5 c-135 -5 -144 -6 -162 -29 -25 -31 -24 -69 3 -98 l21 -23 1069 0 1069 0 24 25 c30 29 32 64 6 96 l-19 24 -758 5 -757 5 224 78 224 79 780 779 780 779 333 0 332 0 0 -797 0 -798 -550 -550 c-475 -475 -550 -554 -550 -580 0 -39 35 -75 74 -75 28 0 105 74 703 672 l673 673 0 -332 0 -331 -84 -3 c-98 -5 -126 -21 -126 -76 0 -58 26 -73 125 -73 l85 0 0 -115 0 -115 -82 0 c-96 0 -128 -19 -128 -76 0 -54 36 -74 131 -74 l79 0 0 -115 0 -115 -85 0 c-99 0 -125 -15 -125 -73 0 -55 28 -71 126 -76 l84 -3 0 -108 0 -108 -84 -3 c-98 -5 -126 -21 -126 -76 0 -58 26 -73 125 -73 l85 0 0 -180 0 -180 -1152 0 -1153 0 393 393 c223 223 392 400 392 410 0 22 -18 59 -34 69 -6 4 -26 8 -45 8 -31 0 -50 -15 -196 -160 l-161 -160 -1245 0 c-1340 0 -1298 -2 -1401 51 -59 30 -140 115 -171 179 -73 149 -51 311 59 446 66 82 210 154 308 154 33 0 52 6 73 24 l28 24 0 301 c0 296 0 301 -22 322 -27 27 -75 29 -103 4 -19 -17 -20 -30 -20 -271 l0 -253 -42 -11 c-122 -32 -192 -66 -276 -137 l-52 -45 0 1409 c0 974 3 1428 11 1468 20 108 89 217 176 277 52 35 127 67 161 68 l22 0 0 -1145z m3475 925 l170 -170 -70 -70 -70 -70 -172 172 -173 173 67 67 c37 38 70 68 73 68 3 0 82 -76 175 -170z m-1788 -2052 c-7 -4 -54 -22 -106 -39 l-93 -31 -71 70 -70 70 38 107 38 107 138 -138 c94 -94 134 -141 126 -146z"
+                    ></path>
+                    <path
+                      d="M4038 1082 c-408 -408 -428 -429 -428 -464 0 -28 6 -42 26 -57 26 -21 37 -21 450 -21 301 0 430 3 449 12 16 7 29 24 36 47 6 23 9 183 7 454 l-3 419 -24 19 c-13 10 -37 19 -54 19 -28 0 -78 -47 -459 -428z m392 -112 l0 -280 -282 0 -283 0 280 280 c154 154 281 280 282 280 2 0 3 -126 3 -280z"
+                    ></path>
+                  </g>
+                </svg>
+              </section>
+              <div class="service-text mt-4">
+                <h3 class="fw-bold mb-4">Web Designing</h3>
+                <p>
+                  Staying competitive and innovative is fundamental to us.
+                  Spending more effort on design implies spending less time
+                  coding.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="service-box">
+              <section class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="512.000000pt"
+                  height="512.000000pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    stroke="none"
+                  >
+                    <path
+                      d="M105 5015 l-25 -24 0 -271 0 -271 25 -24 24 -25 271 0 271 0 24 25 c23 22 25 32 25 120 l0 95 478 -1 c357 0 471 -3 452 -11 -279 -124 -485 -261 -665 -444 -250 -253 -396 -564 -422 -900 l-6 -84 -54 0 c-44 0 -58 -5 -78 -25 -25 -24 -25 -26 -25 -215 0 -257 -17 -240 240 -240 257 0 240 -17 240 240 0 189 0 191 -25 215 -20 21 -34 25 -80 25 l-55 0 0 38 c0 72 30 234 60 322 167 501 686 910 1305 1029 61 12 120 24 133 27 21 4 22 2 22 -81 0 -78 2 -88 25 -110 l24 -25 271 0 271 0 24 25 c23 22 25 32 25 110 0 83 1 85 23 81 12 -3 72 -15 132 -26 473 -93 914 -368 1147 -714 131 -197 196 -375 214 -594 l7 -82 -57 0 c-47 0 -61 -4 -81 -25 -25 -24 -25 -26 -25 -215 0 -257 -17 -240 240 -240 257 0 240 -17 240 240 0 189 0 191 -25 215 -20 20 -34 25 -78 25 l-54 0 -7 84 c-35 467 -300 876 -756 1171 -61 40 -232 129 -330 173 -19 8 95 11 453 11 l477 1 0 -95 c0 -88 2 -98 25 -120 l24 -25 271 0 271 0 24 25 25 24 0 271 0 271 -25 24 -24 25 -271 0 -271 0 -24 -25 c-23 -22 -25 -32 -25 -120 l0 -95 -760 0 -760 0 0 95 c0 88 -2 98 -25 120 l-24 25 -271 0 -271 0 -24 -25 c-23 -22 -25 -32 -25 -120 l0 -95 -760 0 -760 0 0 95 c0 88 -2 98 -25 120 l-24 25 -271 0 -271 0 -24 -25z m455 -295 l0 -160 -160 0 -160 0 0 160 0 160 160 0 160 0 0 -160z m2160 0 l0 -160 -160 0 -160 0 0 160 0 160 160 0 160 0 0 -160z m2160 0 l0 -160 -160 0 -160 0 0 160 0 160 160 0 160 0 0 -160z m-4160 -1760 l0 -80 -80 0 -80 0 0 80 0 80 80 0 80 0 0 -80z m3840 0 l0 -80 -80 0 -80 0 0 80 0 80 80 0 80 0 0 -80z"
+                    ></path>
+                    <path
+                      d="M2512 4223 c-31 -27 -1145 -1785 -1149 -1813 -2 -14 92 -312 221 -697 l224 -673 -79 0 c-71 0 -83 -3 -104 -25 -25 -24 -25 -26 -25 -215 0 -189 0 -191 25 -215 20 -21 34 -25 80 -25 l55 0 0 -215 c0 -216 0 -216 25 -240 l24 -25 751 0 751 0 24 25 c25 24 25 24 25 240 l0 215 55 0 c46 0 60 4 80 25 25 24 25 26 25 215 0 189 0 191 -25 215 -21 22 -33 25 -104 25 l-79 0 224 673 c129 385 223 683 221 697 -4 28 -1118 1786 -1149 1813 -11 9 -33 17 -48 17 -15 0 -37 -8 -48 -17z m-32 -1085 l0 -743 -68 -36 c-233 -123 -227 -441 10 -566 46 -24 64 -28 138 -28 77 1 91 4 148 34 70 38 101 70 140 145 22 43 26 64 27 136 0 78 -3 90 -34 148 -38 71 -82 112 -153 144 l-48 22 0 744 c0 410 2 743 4 741 2 -2 216 -338 475 -747 l473 -742 -225 -673 -224 -672 -583 0 -583 0 -224 672 -225 673 474 745 c260 409 474 745 476 745 1 0 2 -334 2 -742z m143 -912 c104 -43 128 -175 47 -256 -66 -66 -156 -67 -221 -1 -124 123 13 325 174 257z m737 -1426 l0 -80 -800 0 -800 0 0 80 0 80 800 0 800 0 0 -80z m-160 -400 l0 -160 -640 0 -640 0 0 160 0 160 640 0 640 0 0 -160z"
+                    ></path>
+                  </g>
+                </svg>
+              </section>
+              <div class="service-text mt-4">
+                <h3 class="fw-bold mb-4">Web Development</h3>
+                <p>
+                  We use all of the individual visual components from the
+                  preliminary design to build the working website.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             skills-section                              -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fuild mb-5" id="skills">
+      <div class="my-skills container py-5">
+        <div>
+          <h2 class="skills-heading text-uppercase fw-bold text-center">
+            my skills
+          </h2>
+        </div>
+
+        <div class="skills row mt-5">
+          <div
+            class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center pt-4 pt-lg-0"
+          >
+            <div class="skills-image">
+              <img src="images/html-2.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center pt-4 pt-lg-0"
+          >
+            <div class="skills-image">
+              <img src="images/css-skills.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center pt-4 pt-lg-0"
+          >
+            <div class="skills-image">
+              <img src="images/bootstrap skills.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center pt-4 pt-lg-0"
+          >
+            <div class="skills-image">
+              <img src="images/javascript-2 skill.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             project-section                             -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fuild mb-5" id="projects">
+      <div class="my-projects container py-5">
+        <div>
+          <h2 class="text-uppercase fw-bold text-center">my projects</h2>
+        </div>
+        <div class="projects row mt-5 justify-content-center gap-5">
+          <div class="project col-lg-6 mt-5">
+            <div class="project-thumbnail">
+              <img
+                src="images/project1.PNG"
+                alt="Task Thumbnail"
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="project-title mt-3">
+              <div class="d-flex justify-content-between">
+                <div class="project-development">
+                  <p class="text-danger fs-5">Development</p>
+                </div>
+                <div class="project-likes">
+                  <i class="fa-regular fa-heart text-danger"></i>
+                  <span>10</span>
+                </div>
+              </div>
+              <a href="#">
+                <h3 class="project-title-footer text-dark fw-bold">
+                  Design Task UI
+                  <span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </span>
+                </h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="project col-lg-6 mt-5">
+            <div class="project-thumbnail">
+              <img src="images/project2.PNG" alt="" class="w-100 h-100" />
+            </div>
+            <div class="project-title mt-3">
+              <div class="d-flex justify-content-between">
+                <div class="project-development">
+                  <p class="text-danger fs-5">Development</p>
+                </div>
+                <div class="project-likes">
+                  <i class="fa-regular fa-heart text-danger"></i>
+                  <span>10</span>
+                </div>
+              </div>
+              <a href="#">
+                <h3 class="project-title-footer text-dark fw-bold">
+                  My Blogs Website
+                  <span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </span>
+                </h3>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="project col-lg-4 mt-5">
+            <div class="project-thumbnail">
+              <img
+                src="images/project2.PNG"
+                alt=""
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="project-title mt-3">
+              <div class="d-flex justify-content-between">
+                <div class="project-development">
+                  <p class="text-danger fs-5">Development</p>
+                </div>
+                <div class="project-likes">
+                  <i class="fa-regular fa-heart text-danger"></i>
+                  <span>10</span>
+                </div>
+              </div>
+              <a href="#">
+                <h3 class="project-title-footer text-dark fw-bold">
+                  The Service Provide For Design
+                  <span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </span>
+                </h3>
+              </a>
+            </div>
+          </div>
+          <div class="project col-lg-4 mt-5">
+            <div class="project-thumbnail">
+              <img
+                src="images/project-thumbnail-image.jpg"
+                alt=""
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="project-title mt-3">
+              <div class="d-flex justify-content-between">
+                <div class="project-development">
+                  <p class="text-danger fs-5">Development</p>
+                </div>
+                <div class="project-likes">
+                  <i class="fa-regular fa-heart text-danger"></i>
+                  <span>10</span>
+                </div>
+              </div>
+              <a href="#">
+                <h3 class="project-title-footer text-dark fw-bold">
+                  The Service Provide For Design
+                  <span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                  </span>
+                </h3>
+              </a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             contact-section                             -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <div class="container-fuild mb-5" id="contact">
+      <div class="my-skills container py-5">
+        <div>
+          <h2 class="skills-heading text-uppercase fw-bold text-center">
+            get in touch
+          </h2>
+        </div>
+        <div class="skills row mt-5">
+          <div class="col-lg-5 mb-lg-0 mb-5">
+            <div class="contact-left h-100">
+              <div class="contact-image mb-4">
+                <img src="images/contact1.png" alt="" class="w-100" />
+              </div>
+              <div class="contact-text">
+                <h2 class="fw-bold">Bhawana</h2>
+                <p>Web Developer</p>
+                <p>
+                  I am also available for freelance work. Connect with me via
+                  and call in to my account.
+                </p>
+                <section class="contact-link">
+                  <span>phone :</span>
+                  <a href="#"> 8750841087</a>
+                </section>
+                <section class="contact-link">
+                  <span>Email :</span>
+                  <a href="#">bhawana6851@gmail.com</a>
+                </section>
+              </div>
+              <!-- ---------------------------- find-with-me ----------------------------- -->
+              <div>
+                <p class="ms-lg-2 ms-md-3 mt-5 text-uppercase">find with me</p>
+                <ul
+                  class="find-me-icons d-flex justify-content-start ps-3"
+                  id="contact-find-me"
+                >
+                  <li>
+                    <a href="#" class="text-center">
+                      <svg
+                        fill="#3c3e41"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid"
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 14.906 32"
+                        stroke="#3c3e41"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            d="M14.874,11.167 L14.262,14.207 C14.062,15.208 13.100,15.992 12.072,15.992 L10.000,15.992 L10.000,30.000 C10.000,31.104 9.159,32.000 8.049,32.000 L5.030,32.000 C3.920,32.000 3.017,31.102 3.017,29.999 L3.017,15.992 L2.011,15.992 C0.901,15.992 -0.002,15.095 -0.002,13.991 L-0.002,10.990 C-0.002,9.887 0.901,8.989 2.011,8.989 L3.017,8.989 L3.017,6.003 C3.017,2.716 5.693,0.041 8.994,0.013 C9.015,0.012 9.033,0.001 9.055,0.001 L13.081,0.001 C13.636,0.001 14.000,0.448 14.000,1.000 L14.000,6.000 C14.000,6.553 13.636,7.004 13.081,7.004 L10.061,7.004 L10.060,8.989 L13.079,8.989 C13.645,8.989 14.167,9.228 14.509,9.644 C14.852,10.059 14.985,10.615 14.874,11.167 ZM9.092,10.990 C9.078,10.991 9.067,10.998 9.053,10.998 L9.053,10.998 C8.497,10.997 8.046,10.549 8.047,9.997 L8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 L8.049,6.003 C8.049,5.450 8.499,5.003 9.055,5.003 L12.074,5.003 L12.074,2.002 L9.094,2.002 C9.077,2.002 9.063,2.011 9.045,2.011 C6.831,2.011 5.030,3.802 5.030,6.003 L5.030,10.005 C5.030,10.558 4.579,11.006 4.023,11.006 C3.996,11.006 3.973,10.992 3.946,10.990 L2.011,10.990 L2.011,13.991 L4.023,13.991 C4.579,13.991 5.030,14.439 5.030,14.992 C5.030,15.044 5.008,15.088 5.000,15.138 L5.000,30.000 L8.049,29.999 L8.049,15.002 C8.049,14.998 8.047,14.995 8.047,14.992 C8.047,14.439 8.497,13.991 9.053,13.991 L12.072,13.991 C12.145,13.991 12.275,13.886 12.288,13.816 L12.857,10.990 L9.092,10.990 Z"
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-center">
+                      <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                      <svg
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        fill="#3c3e41"
+                        xmlns="http://www.w3.org/2000/svg"
+                        stroke="#3c3e41"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+
+                        <g id="SVGRepo_iconCarrier">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                            fill=""
+                          />
+                          <path
+                            d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                            fill=""
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                            fill=""
+                          />
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-center">
+                      <svg
+                        width="24px"
+                        height="24px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18 22V15C18 13.8954 17.1046 13 16 13C14.8954 13 14 13.8954 14 15V22H10"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10 22V15C10 11.6863 12.6863 9 16 9C19.3137 9 22 11.6863 22 15V22H18"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <rect
+                          x="3"
+                          y="9"
+                          width="4"
+                          height="13"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="5"
+                          cy="4"
+                          r="2"
+                          stroke="#3c3e41"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="container-fuild right-contact">
+              <form
+                class="row g-3 w-100"
+                name="contactForm"
+                onsubmit="return validateForm()"
+                action="#"
+                method=""
+              >
+                <div class="col-md-6">
+                  <label for="">First Name</label>
+                  <span>*</span>
+                  <br />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name"
+                    class="form-control"
+                  />
+                  <div class="error" id="nameErr"></div>
+                </div>
+                <div class="col-md-6">
+                  <label for="">Contect Number</label>
+                  <span>*</span>
+                  <br />
+                  <input
+                    type="number"
+                    name="mobile"
+                    id="contact"
+                    placeholder="Your Number"
+                    class="form-control"
+                  />
+                  <div class="error" id="contactErr"></div>
+                </div>
+
+                <div class="col-12">
+                  <label for="">Email</label>
+                  <span>*</span>
+                  <br />
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Your E-mail"
+                    class="form-control"
+                  />
+                  <div class="error" id="emailErr"></div>
+                </div>
+
+                <div class="col-12">
+                  <label for="">Subject</label>
+                  <span>*</span>
+                  <br />
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    class="form-control"
+                  />
+                  <div class="error" id="subErr"></div>
+                </div>
+
+                <div class="col-12">
+                  <label for="">Your Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="10"
+                    cols="30"
+                  ></textarea>
+                  <br />
+                </div>
+
+                <label for=""></label>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="button contact-button border-0 text-uppercase mt-5"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             footer-section                              -->
+    <!-- ----------------------------------------------------------------------- -->
+    <footer>
+      <p class="text-center fs-6">
+        © 2024. Made with love by
+        <span onclick="topFunction()"><a href="#hero">Bhawana</a></span>
+      </p>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
