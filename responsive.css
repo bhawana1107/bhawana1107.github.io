@@ -18,7 +18,7 @@
 @media(max-width: 768px) {
     :root {
         --primary-color: #fff;
-        --secondary-color: #ff014f;
+        --secondary-color: #1e00ff;
         --heading-color: #3c3e41;
     }
 
@@ -161,7 +161,7 @@
     #read-more {
         border: none;
         background-color: transparent;
-        color: #ff014f;
+        color: #1e00ff;
     }
 
     .show1 {
