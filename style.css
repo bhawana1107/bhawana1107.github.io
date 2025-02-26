@@ -223,7 +223,7 @@ ul {
 }
 
 .find-me-icons li a:hover {
-  background: linear-gradient(145deg, #ff014f, #d11414);
+  background: linear-gradient(145deg,#1e00ff , #d11414);
   transform: translateY(-3px);
 }
 
@@ -403,7 +403,7 @@ ul {
 }
 
 .project-title a:hover h3 {
-  color: #ff014f !important;
+  color: #1e00ff !important;
 }
 
 .project-title a i {
@@ -493,7 +493,7 @@ input {
 }
 
 .form-control:focus {
-  border-color: #ff014f;
+  border-color: #1e00ff;
   border-width: 2px;
   box-shadow: none;
   transition: border-color 0.6s;
