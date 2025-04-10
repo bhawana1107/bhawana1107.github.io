@@ -1,0 +1,84 @@
+<div id="header"></div>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                             project-section                             -->
+<!-- ----------------------------------------------------------------------- -->
+
+<div class="container-fuild mb-5" id="projects">
+    <div class="my-projects container py-5">
+        <div class="projects row mt-5 justify-content-center gap-5">
+            <div class="project col-lg-6 mt-5">
+                <div class="project-thumbnail">
+                    <img src="images/rockpapergame.png" alt="" class="w-100 h-100" />
+                </div>
+                <div class="project-title mt-3">
+                    <a href="https://bhawana1107.github.io/Rock-paper-scissors-game/">
+                        <h3 class="project-title-footer text-dark fw-bold">
+                            Rock Paper Scissors Game
+                            <span>
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="project col-lg-6 mt-5">
+                <div class="project-thumbnail">
+                    <img src="images/tictactoe.png" alt="" class="w-100 h-100" />
+                </div>
+                <div class="project-title mt-3">
+                    <a href="https://bhawana1107.github.io/tic_tac_toe/">
+                        <h3 class="project-title-footer text-dark fw-bold">
+                            Tic Tac Toe Game
+                            <span>
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="project col-lg-6 mt-5">
+                <div class="project-thumbnail">
+                    <img src="images/calculator.png" alt="" class="w-100 h-100" />
+                </div>
+                <div class="project-title mt-3">
+                    <a href="https://bhawana1107.github.io/calculator/">
+                        <h3 class="project-title-footer text-dark fw-bold">
+                            Basic Calculator
+                            <span>
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="project col-lg-6 mt-5">
+                <div class="project-thumbnail">
+                    <img src="images/tipcalculator.png" alt="" class="w-100 h-100" />
+                </div>
+                <div class="project-title mt-3">
+                    <a href="https://bhawana1107.github.io/tip_calculator/">
+                        <h3 class="project-title-footer text-dark fw-bold">
+                            Tip Calculator
+                            <span>
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+<style>
+    .project-thumbnail > img {
+    height: 330px !important;
+}
+</style>
+
+<script>
+    fetch("header.html")
+        .then(res => res.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+</script>

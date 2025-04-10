@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhawana - Web developer</title>
+    <!-- ------------------------------ css-link ------------------------------- -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- --------------------------- bootstrap-link ---------------------------- -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- ------------------------------ icon-link ------------------------------ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-------------------------------- font-link ------------------------------ -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- --------------------------- navbar-section ---------------------------- -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top position-sticky d-lg-block"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="images/IMG_20240409_103314_684.webp"
+                    alt="photo"> -->
+          <!-- <span class="fw-bolder">BHAWANA</span> -->
+          <span class="fw-bolder gradient-text">BHAWANA</span>
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse pe-3 justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav pe-3" id="nav-list">
+            <li class="nav-item">
+              <a class="nav-link active text-uppercase" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#skills">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#projects">project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#contact">contact me</a>
+            </li>
+          </ul>
+        </div>
+        <a
+          href="pdf/my_cv.pdf"
+          target="_blank"
+          id="resume-button"
+          class="d-block text-decoration-none text-center text-uppercase"
+          >RESUME</a
+        >
+      </div>
+    </nav>
+
+    <!-- -------------------------- offcanvas-navbar --------------------------- -->
+    <nav
+      class="navbar bg-body-tertiary fixed-top d-lg-none d-flex position-sticky"
+      id="responsive-navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="images/IMG_20240409_103314_684.webp" alt="photo" /> -->
+          <span class="fw-bolder gradient-text">BHAWANA</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+              <!-- <img
+                src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg"
+                alt="photo"
+              /> -->
+              <span class="fw-bolder gradient-text">BHAWANA</span>
+            </a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              id="responsive-close-btn"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3"
+              id="responsive-nav"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact me</a>
+              </li>
+            </ul>
+            <section>
+              <a
+                href="pdf/my_cv.pdf"
+                target="_blank"
+                id="resume-button"
+                class="d-block text-decoration-none text-center text-uppercase"
+                >RESUME</a
+              >
+            </section>
+            <!-- ---------------------------- find-me-icons ---------------------------- -->
+            <section class="find-me-heading">
+              <p>find with me</p>
+            </section>
+            <ul class="find-me-icons">
+              <li>
+                <a href="#">
+                  <svg
+                    fill="#ff014f"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 14.906 32"
+                    stroke="#ff014f"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M14.874,11.167 L14.262,14.207 C14.062,15.208 13.100,15.992 12.072,15.992 L10.000,15.992 L10.000,30.000 C10.000,31.104 9.159,32.000 8.049,32.000 L5.030,32.000 C3.920,32.000 3.017,31.102 3.017,29.999 L3.017,15.992 L2.011,15.992 C0.901,15.992 -0.002,15.095 -0.002,13.991 L-0.002,10.990 C-0.002,9.887 0.901,8.989 2.011,8.989 L3.017,8.989 L3.017,6.003 C3.017,2.716 5.693,0.041 8.994,0.013 C9.015,0.012 9.033,0.001 9.055,0.001 L13.081,0.001 C13.636,0.001 14.000,0.448 14.000,1.000 L14.000,6.000 C14.000,6.553 13.636,7.004 13.081,7.004 L10.061,7.004 L10.060,8.989 L13.079,8.989 C13.645,8.989 14.167,9.228 14.509,9.644 C14.852,10.059 14.985,10.615 14.874,11.167 ZM9.092,10.990 C9.078,10.991 9.067,10.998 9.053,10.998 L9.053,10.998 C8.497,10.997 8.046,10.549 8.047,9.997 L8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 C8.047,9.990 8.047,9.990 8.047,9.990 L8.049,6.003 C8.049,5.450 8.499,5.003 9.055,5.003 L12.074,5.003 L12.074,2.002 L9.094,2.002 C9.077,2.002 9.063,2.011 9.045,2.011 C6.831,2.011 5.030,3.802 5.030,6.003 L5.030,10.005 C5.030,10.558 4.579,11.006 4.023,11.006 C3.996,11.006 3.973,10.992 3.946,10.990 L2.011,10.990 L2.011,13.991 L4.023,13.991 C4.579,13.991 5.030,14.439 5.030,14.992 C5.030,15.044 5.008,15.088 5.000,15.138 L5.000,30.000 L8.049,29.999 L8.049,15.002 C8.049,14.998 8.047,14.995 8.047,14.992 C8.047,14.439 8.497,13.991 9.053,13.991 L12.072,13.991 C12.145,13.991 12.275,13.886 12.288,13.816 L12.857,10.990 L9.092,10.990 Z"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                  <svg
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#ff014f"
+                      />
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#ff014f"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#ff014f"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 22V15C18 13.8954 17.1046 13 16 13C14.8954 13 14 13.8954 14 15V22H10"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 22V15C10 11.6863 12.6863 9 16 9C19.3137 9 22 11.6863 22 15V22H18"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <rect
+                      x="3"
+                      y="9"
+                      width="4"
+                      height="13"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle
+                      cx="5"
+                      cy="4"
+                      r="2"
+                      stroke="#ff014f"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
