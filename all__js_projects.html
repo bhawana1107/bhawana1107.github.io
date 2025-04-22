@@ -24,6 +24,21 @@
             </div>
             <div class="project col-lg-6 mt-5">
                 <div class="project-thumbnail">
+                    <img src="images/calculator.png" alt="" class="w-100 h-100" />
+                </div>
+                <div class="project-title mt-3">
+                    <a href="https://bhawana1107.github.io/calculator/">
+                        <h3 class="project-title-footer text-dark fw-bold">
+                            Basic Calculator
+                            <span>
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="project col-lg-6 mt-5">
+                <div class="project-thumbnail">
                     <img src="images/tictactoe.png" alt="" class="w-100 h-100" />
                 </div>
                 <div class="project-title mt-3">
@@ -39,12 +54,27 @@
             </div>
             <div class="project col-lg-6 mt-5">
                 <div class="project-thumbnail">
-                    <img src="images/calculator.png" alt="" class="w-100 h-100" />
+                    <img src="images/random.png" alt="" class="w-100 h-100" />
                 </div>
                 <div class="project-title mt-3">
-                    <a href="https://bhawana1107.github.io/calculator/">
+                    <a href="https://bhawana1107.github.io/random-password-generator/">
                         <h3 class="project-title-footer text-dark fw-bold">
-                            Basic Calculator
+                            Random Password Generator
+                            <span>
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </h3>
+                    </a>
+                </div>
+            </div>
+            <div class="project col-lg-6 mt-5">
+                <div class="project-thumbnail">
+                    <img src="images/stepbar.png" alt="" class="w-100 h-100" />
+                </div>
+                <div class="project-title mt-3">
+                    <a href="https://bhawana1107.github.io/step_progress_bar/">
+                        <h3 class="project-title-footer text-dark fw-bold">
+                            Step Progress Bar
                             <span>
                                 <i class="fa-solid fa-arrow-up"></i>
                             </span>
@@ -71,14 +101,19 @@
         </div>
     </div>
 </div>
+
 <style>
-    .project-thumbnail > img {
-    height: 330px !important;
-}
+    .project-thumbnail>img{
+        height:330px !important;
+    }
 </style>
+<div id="footer"></div>
 
 <script>
     fetch("header.html")
         .then(res => res.text())
         .then(data => document.getElementById("header").innerHTML = data);
+    fetch("footer.html")
+         .then(res => res.text())
+         .then(data => document.getElementById("footer").innerHTML = data);
 </script>

@@ -123,7 +123,7 @@ function validateForm() {
 };
 
 function sendToWhatsapp() {
-    let number = "+917055548936";
+    let number = "+918750841087";
 
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
